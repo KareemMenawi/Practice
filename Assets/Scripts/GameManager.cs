@@ -11,5 +11,6 @@ public class GameManager : Singleton<GameManager>
     {
         //base.Awake();
         CameraManager = GetComponent<CameraManager>();
+        UiManager = GetComponent<UiManager>();
     }
 }
